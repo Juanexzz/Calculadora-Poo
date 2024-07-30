@@ -10,4 +10,6 @@ class Calculator:
         return a * b
 
     def divition(self, a: float, b: float) -> float:
+        if b == 0:
+            return "Cannot divide by 0!"
         return a / b
