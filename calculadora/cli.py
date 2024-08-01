@@ -6,7 +6,7 @@ from calculadora.model import Calculator
 def calc(ctx: click.Context):
     """A simple calculator"""
 
-    ctx.obj = {"calculator_object", Calculator()}
+    ctx.obj = {"calculator_object": Calculator()}
 
 
 @click.command()

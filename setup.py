@@ -2,13 +2,13 @@ from setuptools import setup
 setup(
     name="cli_calculator",
     version="0.1",
-    packages=["calculator", "tests"],
+    packages=["calculadora", "tests"],
     install_requieres=[
         "click"
     ],
-    entry_point='''
+    entry_points='''
       [console_scripts]
-      calc=calculator.cli:calc
+      calc=calculadora.cli:calc
     '''
 
 )
